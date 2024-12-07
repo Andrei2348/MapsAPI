@@ -1,11 +1,12 @@
 <script setup lang="ts">
+import MapComponent from '@/components/MapComponent.vue';
 </script>
 
 <template>
   <MainLayout>
     <div>
-      <h1 class="title">Основной компонент</h1>
-      <RouterLink to="/projects">Go to projects</RouterLink>
+      <h1 class="title">Карта</h1>
+      <MapComponent />
     </div>
   </MainLayout>
 </template>

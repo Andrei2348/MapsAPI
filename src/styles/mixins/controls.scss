@@ -1,4 +1,6 @@
 @use './../variables/colors.scss' as *;
+@use './typo.scss' as *;
+@use './helpers.scss' as *;
 
 @mixin input {
   font-size: 18px;
